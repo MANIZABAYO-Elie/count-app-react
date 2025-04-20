@@ -19,7 +19,7 @@ const resetCount = ()=>{
 return(
     <div>
         <h1>The value is:{count}</h1><br></br>
-        <button onClick={decrementCount}>Drecrease</button>
+        <button onClick={decrementCount}>Decrease</button>
         <button onClick={resetCount}>Reset</button>
         <button onClick={incrementCount}>Increase</button>
 
